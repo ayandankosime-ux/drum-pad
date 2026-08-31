@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Caacupe One", sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400px;
+}
+
+span {
+    color: rgb(207, 41, 212);
+}
+
+.body-container {
+    display: grid;
+    grid-template-columns:  100px 100px;
+    grid-template-rows: 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 12px;
+    border: 3px solid rgb(53, 52, 52);
+}
+
+.btn {
+    border: 2px solid rgb(66, 216, 60);
+    border-radius: 12px;
+    background-color: rgb(181, 255, 181);
+    color: rgb(92, 92, 92);
+    font-weight: bold;
+}
+
+.btn-snare, 
+.btn-clap {
+    background-color: rgb(253, 184, 255);
+    border: 2px solid rgb(249, 67, 255);
+}
+
+.btn-snare:active, 
+.btn-clap:active {
+    background-color: rgb(250, 120, 255);
+    box-shadow: 0px 0px 12px rgba(249, 67, 255, 0.6);
+}
+
+.btn-kick, 
+.btn-rim {
+    background-color: rgb(181, 255, 181);
+    border: 2px solid rgb(66, 216, 60);
+}
+
+.btn-kick:active, 
+.btn-rim:active {
+    background-color: rgb(181, 255, 181);
+    box-shadow:0px 0px 12px rgba(66, 216, 60, 0.7);
+}
+
+.btn:active {
+    color: white;
+    border: 3px solid white;
+}
