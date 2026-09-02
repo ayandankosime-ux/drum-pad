@@ -29,6 +29,13 @@ span {
     border: 3px solid rgb(53, 52, 52);
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn {
     border: 2px solid rgb(66, 216, 60);
     border-radius: 12px;
@@ -64,4 +71,28 @@ span {
 .btn:active {
     color: white;
     border: 3px solid white;
+}
+
+.glow-green {
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(181, 255, 181);
+    box-shadow:0px 0px 12px rgba(66, 216, 60, 0.7);
+}
+
+.glow-purple {
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(250, 120, 255);
+    box-shadow: 0px 0px 12px rgba(249, 67, 255, 0.6);
+}
+
+.instructions {
+    margin-top: 10px;
+}
+
+.instruction-text {
+    color: rgb(78, 78, 78);
+    margin: 0;
+    font-size: 17px;
 }
